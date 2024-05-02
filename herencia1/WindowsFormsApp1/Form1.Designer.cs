@@ -40,6 +40,7 @@ namespace WindowsFormsApp1
             this.textBox_valor1 = new System.Windows.Forms.TextBox();
             this.textBox_valor2 = new System.Windows.Forms.TextBox();
             this.textBox_resultado = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn_Sumar
@@ -55,6 +56,7 @@ namespace WindowsFormsApp1
             this.btn_Sumar.TabIndex = 0;
             this.btn_Sumar.Text = "Sumar";
             this.btn_Sumar.UseVisualStyleBackColor = false;
+            this.btn_Sumar.Click += new System.EventHandler(this.btn_Sumar_Click);
             // 
             // btn_restar
             // 
@@ -69,6 +71,7 @@ namespace WindowsFormsApp1
             this.btn_restar.TabIndex = 1;
             this.btn_restar.Text = "Restar";
             this.btn_restar.UseVisualStyleBackColor = false;
+            this.btn_restar.Click += new System.EventHandler(this.btn_restar_Click);
             // 
             // btn_multiplicar
             // 
@@ -83,6 +86,7 @@ namespace WindowsFormsApp1
             this.btn_multiplicar.TabIndex = 2;
             this.btn_multiplicar.Text = "Multiplicar";
             this.btn_multiplicar.UseVisualStyleBackColor = false;
+            this.btn_multiplicar.Click += new System.EventHandler(this.btn_multiplicar_Click);
             // 
             // btn_dividir
             // 
@@ -97,6 +101,7 @@ namespace WindowsFormsApp1
             this.btn_dividir.TabIndex = 3;
             this.btn_dividir.Text = "Dividir";
             this.btn_dividir.UseVisualStyleBackColor = false;
+            this.btn_dividir.Click += new System.EventHandler(this.btn_dividir_Click);
             // 
             // btn_limpiar
             // 
@@ -111,6 +116,7 @@ namespace WindowsFormsApp1
             this.btn_limpiar.TabIndex = 4;
             this.btn_limpiar.Text = "Limpiar";
             this.btn_limpiar.UseVisualStyleBackColor = false;
+            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
             // 
             // label1
             // 
@@ -144,27 +150,38 @@ namespace WindowsFormsApp1
             // 
             // textBox_valor1
             // 
-            this.textBox_valor1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_valor1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_valor1.Location = new System.Drawing.Point(137, 76);
             this.textBox_valor1.Name = "textBox_valor1";
-            this.textBox_valor1.Size = new System.Drawing.Size(100, 24);
+            this.textBox_valor1.Size = new System.Drawing.Size(100, 26);
             this.textBox_valor1.TabIndex = 8;
             // 
             // textBox_valor2
             // 
-            this.textBox_valor2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_valor2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_valor2.Location = new System.Drawing.Point(137, 129);
             this.textBox_valor2.Name = "textBox_valor2";
-            this.textBox_valor2.Size = new System.Drawing.Size(100, 24);
+            this.textBox_valor2.Size = new System.Drawing.Size(100, 26);
             this.textBox_valor2.TabIndex = 9;
             // 
             // textBox_resultado
             // 
-            this.textBox_resultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_resultado.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_resultado.Location = new System.Drawing.Point(137, 182);
             this.textBox_resultado.Name = "textBox_resultado";
-            this.textBox_resultado.Size = new System.Drawing.Size(100, 24);
+            this.textBox_resultado.ReadOnly = true;
+            this.textBox_resultado.Size = new System.Drawing.Size(100, 26);
             this.textBox_resultado.TabIndex = 10;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(162, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(98, 18);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Calculadora";
             // 
             // Form1
             // 
@@ -172,6 +189,7 @@ namespace WindowsFormsApp1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(419, 314);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox_resultado);
             this.Controls.Add(this.textBox_valor2);
             this.Controls.Add(this.textBox_valor1);
@@ -184,6 +202,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.btn_restar);
             this.Controls.Add(this.btn_Sumar);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -204,6 +223,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.TextBox textBox_valor1;
         private System.Windows.Forms.TextBox textBox_valor2;
         private System.Windows.Forms.TextBox textBox_resultado;
+        private System.Windows.Forms.Label label4;
     }
 }
 

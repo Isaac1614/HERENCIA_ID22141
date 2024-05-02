@@ -8,3 +8,13 @@ C:\Users\Licenciaturas\Downloads\herencia1\WindowsFormsApp1\obj\Debug\WindowsFor
 C:\Users\Licenciaturas\Downloads\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Licenciaturas\Downloads\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Licenciaturas\Downloads\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Licenciaturas\Source\Repos\Isaac1614\HERENCIA_ID22141\herencia1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

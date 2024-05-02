@@ -21,5 +21,40 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btn_Sumar_Click(object sender, EventArgs e)
+        {
+            //comportamiento a mi boton
+            //voy a utilizar mi clase sumar
+            sumar suma = new sumar();//intanciar un nuevo objeto suma
+            //llar al metodo de la clase suma
+            textBox_resultado.Text = suma.operar(int.Parse (textBox_valor1.Text),int.Parse(textBox_valor2.Text)).ToString();
+        }
+
+        private void btn_restar_Click(object sender, EventArgs e)
+        {
+            restar resta = new restar();
+            textBox_resultado.Text = resta.operar(int.Parse(textBox_valor1.Text), int.Parse(textBox_valor2.Text)).ToString();
+        }
+
+        private void btn_multiplicar_Click(object sender, EventArgs e)
+        {
+            multiplicar multi = new multiplicar();
+            textBox_resultado.Text = multi.operar(int.Parse(textBox_valor1.Text), int.Parse(textBox_valor2.Text)).ToString();
+        }
+
+        private void btn_dividir_Click(object sender, EventArgs e)
+        {
+            dividir div = new dividir();
+            textBox_resultado.Text = div.operar(int.Parse(textBox_valor1.Text), int.Parse(textBox_valor2.Text)).ToString();
+
+        }
+
+        private void btn_limpiar_Click(object sender, EventArgs e)
+        {
+            textBox_valor1.Clear();
+            textBox_valor2.Clear();
+            textBox_resultado.Clear();
+        }
     }
 }
