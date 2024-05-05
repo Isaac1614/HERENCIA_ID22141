@@ -46,8 +46,14 @@ namespace WindowsFormsApp1
         private void btn_dividir_Click(object sender, EventArgs e)
         {
             dividir div = new dividir();
-            textBox_resultado.Text = div.operar(int.Parse(textBox_valor1.Text), int.Parse(textBox_valor2.Text)).ToString();
-
+            if (double.Parse(textBox_valor2.Text) == 0)
+            {
+                MessageBox.Show("No se puede dividir entre cero", "Error");
+            }
+            else 
+            {
+                textBox_resultado.Text = div.operar(double.Parse(textBox_valor1.Text), double.Parse(textBox_valor2.Text)).ToString();
+            }
         }
 
         private void btn_limpiar_Click(object sender, EventArgs e)

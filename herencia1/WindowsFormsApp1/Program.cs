@@ -75,11 +75,12 @@ namespace WindowsFormsApp1
         //las clases hijas tambien pueden tener sus prpias clases y metodo pueden tener variables independientes
         //declarar las variables luego los atributo y al final los metodos
         //
-        public int operar(int v1, int v2)
+        public double operar(double v1, double v2)
         {
-            valor1 = v1;
-            valor2 = v2;
-            return resultado = valor1 / valor2;
+            double valor1 = v1;
+            double valor2 = v2;
+            double resultado;
+            return resultado = valor1/ valor2;
         }
     }
     //constructor valor 1
